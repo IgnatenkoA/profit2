@@ -1,0 +1,7 @@
+<story path="oasd/asas/stories/Serching.story" title="">
+<scenario keyword="Scenario:" title="Checking of the search">
+<step outcome="successful">Given Starting from the Maine page</step>
+<step outcome="successful">When Enter the search word in the search box</step>
+<step outcome="successful">Then Show search Results</step>
+</scenario>
+</story>

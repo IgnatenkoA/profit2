@@ -1,0 +1,82 @@
+
+(oasd/asas/stories/my.story)
+Scenario: Forward to About
+Given Starting from the Maine page
+When Press about link to this page About (PENDING)
+Then link to this page About (PENDING)
+@When("Press about link to this page About")
+@Pending
+public void whenPressAboutLinkToThisPageAbout() {
+  // PENDING
+}
+
+@Then("link to this page About")
+@Pending
+public void thenLinkToThisPageAbout() {
+  // PENDING
+}
+
+
+Scenario: Forward to Recipirs
+When Press about link to this page Recipirs (PENDING)
+Then link to this page Recipirs (PENDING)
+@When("Press about link to this page Recipirs")
+@Pending
+public void whenPressAboutLinkToThisPageRecipirs() {
+  // PENDING
+}
+
+@Then("link to this page Recipirs")
+@Pending
+public void thenLinkToThisPageRecipirs() {
+  // PENDING
+}
+
+
+Scenario: Create a Breakfast
+Given Starting from the Menu page (PENDING)
+When add Ukrainian Dishes (PENDING)
+Then Breakfast is complit (PENDING)
+@Given("Starting from the Menu page")
+@Pending
+public void givenStartingFromTheMenuPage() {
+  // PENDING
+}
+
+@When("add Ukrainian Dishes")
+@Pending
+public void whenAddUkrainianDishes() {
+  // PENDING
+}
+
+@Then("Breakfast is complit")
+@Pending
+public void thenBreakfastIsComplit() {
+  // PENDING
+}
+
+
+Scenario: Check the structure of Japanese Recipes
+Given Starting from the page Recipes (PENDING)
+When open Japan cuisine and clic Pirojoks (PENDING)
+Then Show Pirojoks Recipe (PENDING)
+@Given("Starting from the page Recipes")
+@Pending
+public void givenStartingFromThePageRecipes() {
+  // PENDING
+}
+
+@When("open Japan cuisine and clic Pirojoks")
+@Pending
+public void whenOpenJapanCuisineAndClicPirojoks() {
+  // PENDING
+}
+
+@Then("Show Pirojoks Recipe")
+@Pending
+public void thenShowPirojoksRecipe() {
+  // PENDING
+}
+
+
+
